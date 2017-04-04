@@ -67,3 +67,11 @@ Teddy Ruxpin
 * if/else logic
   * Answer right/wrong/time out
   * if done with all questions, show results div
+
+### Things To Do
+
+- [] Create questions and put in JSON
+- [] Create html structure
+- [] Create css and get some nice formatting
+- [] Create and test timer
+- []
