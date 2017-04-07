@@ -90,9 +90,8 @@ function showScore() {
   $(".numberRight").html("Number right: " + numberRight);
   $(".numberWrong").html("Number wrong: " + numberWrong);
   $(".numberNotAnswered").html("Number not answered: " + numberNotAnswered)
-  var delayEreStartOver = setTimeout(showResultOnClick,5000);
-  clearTimeout(delayEreStartOver);
-
+  var delayEreStartOver = setTimeout(doThisOnClick,5000); // here's a problem
+  clearTimeout(delayEreStartOver); // here's where the problem is
 }
 
 function countdownFrom(x) {
