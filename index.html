@@ -12,26 +12,26 @@
 
   <!-- first page -->
   <!-- // Big Fat Start Button -->
-  <button id="startButton">Start</button>
+  <button class="startButton">Start</button>
 
   <!-- Timer -->
   <h2> <span id="timeWords" class="questionDisplay">Time Left: </span><span id="timeDisplay" class="questionDisplay">30</span> </h2>
   <!-- Question  -->
   <div class="questionDisplay question">question</div>
-  <button class="answerDisplay questionDisplay answer">answer</button>
-  <button class="answerDisplay questionDisplay distractor dist1">dist1</button>
-  <button class="answerDisplay questionDisplay distractor dist2">dist2</button>
-  <button class="answerDisplay questionDisplay distractor dist3">dist3</button>
+  <button class="answerDisplay questionDisplay" id="opt0">answer</button>
+  <button class="answerDisplay questionDisplay" id="opt1">dist1</button>
+  <button class="answerDisplay questionDisplay" id="opt2">dist2</button>
+  <button class="answerDisplay questionDisplay" id="opt3">dist3</button>
   <!-- randomize list: http://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order  -->
   <!-- http://techwelkin.com/randomize-html-list-display-html-list-items-randomly -->
 
   <div class="resultDisplay answerRevealed"></div>
-  <div class="rightOrWrongWords"></div>
+  <div class="resultDisplay rightOrWrongWords"></div>
   <div class="resultDisplay numberRight"></div>
   <div class="resultDisplay numberWrong"></div>
   <div class="resultDisplay numberNotAnswered"></div>
 
-  <button class="resultDisplay" id="buttonClickAgain">Start Over</button>
+  <button class="resultDisplay startButton" id="buttonClickAgain">Start Over</button>
 
   <!-- <script type="text/javascript" src="/question-bank/question-bank.json"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
