@@ -1,9 +1,9 @@
 var questionBank = [
   {question: "What is the spelling of girraffe?",
     answer: "girraffe",
-    distractor1: "fred",
+    distractor1: "gir",
     distractor2: "monkey",
-    distractor3: "george"},
+    distractor3: "affe"},
 
     {question: "What is the word orange?",
     answer: "orange",
@@ -41,7 +41,6 @@ function displayQuestion(q) {
   $(".distractor3").html(questionBank[q].distractor3);
   // now anticipate the answer
   countdownFrom(30);
-
 };
 
 function countdownFrom(x) {

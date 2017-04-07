@@ -1,0 +1,18 @@
+
+
+#timeWords {
+  display: none;
+}
+
+.questionDisplay {
+  display: none;
+}
+
+.resultDisplay {
+  display: none;
+}
+
+button.answerDisplay {
+  background:none;
+  border:none;
+}
