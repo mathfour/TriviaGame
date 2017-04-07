@@ -69,8 +69,10 @@ Teddy Ruxpin
 
 ### Things To Do
 
-- [] Create questions and put in JSON
-- [] Create html structure
-- [] Create css and get some nice formatting
-- [] Create and test timer
-- []
+- [] ~Create questions and put in JSON~
+- [] ~Create html structure~
+- [] ~Create css and get some nice formatting~
+- [] ~Create and test timer~
+- [] Make the background nicer
+- [] Figure out why it won't auto-restart
+- [] Figure out why the new question flashes the old question first
