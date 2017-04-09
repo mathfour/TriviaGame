@@ -2,30 +2,21 @@
 Week 5 Homework - A Trivia Game on 80s Toys
 
 ## Instructions
-Find the [instructions here](https://github.com/the-Coding-Boot-Camp-at-UT/02-2017-Houston-Class-Content/blob/master/Class-Content/05-timers-trivia/2-Homework/Instructions/homework-instructions.md)
+Find the [instructions for the assignment here](https://github.com/the-Coding-Boot-Camp-at-UT/02-2017-Houston-Class-Content/blob/master/Class-Content/05-timers-trivia/2-Homework/Instructions/homework-instructions.md)
 
 ## Ideas for the Questions
 
 1. What was the last name of the talking bear
 Teddy Ruxpin
-
 2. What was the spin off of the cabbage patch kids?
-
 3. Monchichi
     * Maybe include [this video?](https://www.youtube.com/watch?v=od3cNTl40VI)
-
 4. Atari
-
 5. Rainbow Bright
-
 6. Strawberry Shortcake
-
 7. My Buddy
-
 8. Merlin
-
 9. Scratch 'n Sniff Stickers
-
 10. Waterful Ring Toss
 
 ## Flowchart (pre-psuedo-code)
@@ -69,10 +60,10 @@ Teddy Ruxpin
 
 ### Things To Do
 
-- [] ~Create questions and put in JSON~
-- [] ~Create html structure~
-- [] ~Create css and get some nice formatting~
-- [] ~Create and test timer~
-- [] Make the background nicer
-- [] Figure out why it won't auto-restart
-- [] Figure out why the new question flashes the old question first
+[x] ~Create questions and put in JSON~
+[x] ~Create html structure~
+[x] ~Create css and get some nice formatting~
+[x] ~Create and test timer~
+[] Make the background nicer
+[] Figure out why it won't auto-restart
+[x] Figure out why the new question flashes the old question first

@@ -12,12 +12,11 @@ $(".startButton").click(function() {
 
 
 function doThisOnClick() {
-  $(".startButton").hide();
-  $(".questionDisplay").show();
-  countdownFrom(10);
-  $(".resultDisplay").hide();
+  countdownFrom(30);
   var questionToUse = getRandomArbitrary(0,50);
   displayQuestion(questionToUse);
+  $(".startButton").hide();
+  $(".resultDisplay").hide();
 };
 
 
@@ -46,6 +45,7 @@ $.ajax({
   $("#opt1").html(answerChoices[1]);
   $("#opt2").html(answerChoices[2]);
   $("#opt3").html(answerChoices[3]);
+  $(".questionDisplay").show();
 });
 };
 
