@@ -65,34 +65,23 @@ $(".answerDisplay").click(function() {
     console.log("wrong answer clicked");
     $(".rightOrWrongWords").html("You were wrong.");
     numberWrong ++;
-  }
+  };
   showResultOnClick();
-
 });
-
-// $(".distractor").click(function() {
-//   console.log("wrong answer clicked");
-//   $(".rightOrWrongWords").html("You were wrong.");
-//   numberWrong ++;
-//   showResultOnClick();
-//   showScore();
-//
-// });
 
 function showResultOnClick() {
   $(".questionDisplay").hide();
   $(".resultDisplay").show();
   $(".answerRevealed").html("The correct answer is: " + answ);
   showScore();
-}
+};
 
 function showScore() {
   $(".numberRight").html("Number right: " + numberRight);
   $(".numberWrong").html("Number wrong: " + numberWrong);
-  $(".numberNotAnswered").html("Number not answered: " + numberNotAnswered)
-  var delayEreStartOver = setTimeout(doThisOnClick,5000); // here's a problem
-  clearTimeout(delayEreStartOver); // here's where the problem is
-}
+  $(".numberNotAnswered").html("Number not answered: " + numberNotAnswered);
+  var delayEreStartOver = setTimeout(doThisOnClick,5000);
+};
 
 function countdownFrom(x) {
     stopInterval = setInterval(countDown, 1000);
@@ -110,4 +99,4 @@ function countdownFrom(x) {
 
   function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
-  }
+  };
