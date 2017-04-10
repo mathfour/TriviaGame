@@ -1,11 +1,15 @@
 # TriviaGame
-Week 5 Homework - A Trivia Game on 80s Toys
+Week 5 Homework - A Trivia Game
+[Click here to play the game](https://mathfour.github.io/TriviaGame/)
 
 ## Instructions
 Find the [instructions for the assignment here](https://github.com/the-Coding-Boot-Camp-at-UT/02-2017-Houston-Class-Content/blob/master/Class-Content/05-timers-trivia/2-Homework/Instructions/homework-instructions.md)
 
 ## Ideas for the Questions
 
+Initially wanted to make the trivia game about 80s toys. But I needed to focus on the logic more than the playfulness. So I decided to use the questions from an [open source question bank](https://opentdb.com).
+
+Here are the questions I started to think about before I shifted:
 1. What was the last name of the talking bear
 Teddy Ruxpin
 2. What was the spin off of the cabbage patch kids?
